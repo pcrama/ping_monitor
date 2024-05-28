@@ -1,0 +1,8 @@
+* Initial ChatGPT prompt
+#+begin_quote
+  Pretend you are a senior Rust developer. Initialize a new rust
+  project. Implement a PING response time monitoring service taking a list of
+  hosts (IP addresses and host names). Every minute, the minimum and maximum
+  of the PING response time to each of these hosts must be stored in RAM,
+  limiting the total number of measurements to at most 7 days.
+#+end_quote
